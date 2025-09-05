@@ -65,3 +65,7 @@ Este repositorio contiene el primer prototipo del sistema de reconocimiento de s
 - Mejorar la arquitectura del modelo.  
 - Crear una interfaz gráfica o web.
 
+- Flujo de archivos actual: Capturev3.-1.py, Preprocess.py, Train2.py, inference2.py
+- Recursos que se genera: Coordenadas (carpeta), best_lsp_modelv3.keras, lsp_sequence_modelv3.keras, history.json, labels.json
+- training.log.csv.
+

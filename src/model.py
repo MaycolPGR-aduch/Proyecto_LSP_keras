@@ -2,44 +2,37 @@ import tensorflow as tf
 
 def create_sequence_model(
     num_classes: int,
-    seq_length: int = 30,
-    feat_dim: int = 126
+    seq_length: int = 60,   # ahora 60 frames por defecto (≈2s)
+    feat_dim: int = 1530    # manos(126) + rostro(1404)
 ) -> tf.keras.Model:
     """
-    Crea un modelo de secuencias:
-    - Entrada: (seq_length, feat_dim)
-    - Capas Conv1D + pooling para extraer patrones temporales.
-    - Capa densa final con softmax para num_classes.
+    Modelo de secuencias para landmarks:
+    - Entrada: (seq_length, feat_dim) p.ej. (60, 1530)
+    - Conv1D a lo largo del tiempo + pooling + GAP + Dense.
     """
     inp = tf.keras.Input(shape=(seq_length, feat_dim), name="input_sequence")
 
-    # Bloque 1: conv1D + pooling
-    x = tf.keras.layers.Conv1D(
-        filters=64, kernel_size=3, activation="relu", padding="same"
-    )(inp)
-    x = tf.keras.layers.MaxPooling1D(pool_size=2)(x)
+    # Bloque 1
+    x = tf.keras.layers.Conv1D(64, 3, padding="same", activation="relu")(inp)
+    x = tf.keras.layers.MaxPooling1D(2)(x)
 
-    # Bloque 2: conv1D + pooling
-    x = tf.keras.layers.Conv1D(
-        filters=128, kernel_size=3, activation="relu", padding="same"
-    )(x)
-    x = tf.keras.layers.MaxPooling1D(pool_size=2)(x)
+    # Bloque 2
+    x = tf.keras.layers.Conv1D(128, 3, padding="same", activation="relu")(x)
+    x = tf.keras.layers.MaxPooling1D(2)(x)
 
-    # Global pooling para colapsar dimensión temporal
+    # Resumen temporal
     x = tf.keras.layers.GlobalAveragePooling1D()(x)
 
-    # Capa intermedia
+    # Cabeza
     x = tf.keras.layers.Dense(64, activation="relu")(x)
     x = tf.keras.layers.Dropout(0.3)(x)
 
-    # Salida
     out = tf.keras.layers.Dense(num_classes, activation="softmax", name="output")(x)
-
     model = tf.keras.Model(inputs=inp, outputs=out, name="LSP_Sequence_Model")
     return model
 
-# Prueba sencilla de construcción
 if __name__ == "__main__":
-    # Suponiendo 5 clases (por ejemplo B, C, J, Y, Z)
-    model = create_sequence_model(num_classes=5)
-    model.summary()
+    # Ejemplo: 5 clases, (60,1530)
+    m = create_sequence_model(num_classes=5)
+    m.summary()
+

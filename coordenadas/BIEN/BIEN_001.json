@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-09-05T09:46:38",
+  "label_display": "Bien",
+  "label_safe": "BIEN",
+  "frames": 30,
+  "features": 126,
+  "include_face": false,
+  "capture_mode": "static",
+  "duration_secs": 3.0740761756896973,
+  "fps_est": 9.759029472738822,
+  "force_two_hands": false,
+  "feature_type": "hands_only"
+}

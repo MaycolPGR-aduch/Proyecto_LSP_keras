@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-09-05T09:47:27",
+  "label_display": "Buenos dias",
+  "label_safe": "BUENOS_DIAS",
+  "frames": 39,
+  "features": 126,
+  "include_face": false,
+  "capture_mode": "dynamic",
+  "duration_secs": 4.0802857875823975,
+  "fps_est": 9.55815401918399,
+  "force_two_hands": false,
+  "feature_type": "hands_only"
+}
