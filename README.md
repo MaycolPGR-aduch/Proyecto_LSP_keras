@@ -22,6 +22,7 @@ Este repositorio contiene el primer prototipo del sistema de reconocimiento de s
 - Dependencias (instalar con pip):  
   ```bash
   pip install mediapipe opencv-python numpy tensorflow scikit-learn
+  pip install gTTS playsound==1.2.2 psutil
   ```
 
 ## Uso

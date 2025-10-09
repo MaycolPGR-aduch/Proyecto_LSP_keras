@@ -32,3 +32,991 @@ timestamp,label_display,label_safe,filepath
 2025-09-05T09:48:02,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_005.npy
 2025-09-05T09:48:11,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_006.npy
 2025-09-05T09:48:19,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_007.npy
+2025-09-08T10:39:12,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_008.npy
+2025-09-08T10:39:21,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_009.npy
+2025-09-08T10:39:31,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_010.npy
+2025-09-08T10:39:40,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_011.npy
+2025-09-08T10:39:49,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_012.npy
+2025-09-08T10:39:58,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_013.npy
+2025-09-08T10:40:07,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_014.npy
+2025-09-08T10:40:22,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_015.npy
+2025-09-08T10:40:31,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_016.npy
+2025-09-08T10:40:39,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_017.npy
+2025-09-08T10:40:47,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_018.npy
+2025-09-08T10:40:56,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_019.npy
+2025-09-08T10:41:34,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_020.npy
+2025-09-08T10:41:43,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_021.npy
+2025-09-08T10:41:52,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_022.npy
+2025-09-08T10:42:00,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_023.npy
+2025-09-08T10:42:09,Buenos dias,BUENOS_DIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENOS_DIAS\BUENOS_DIAS_024.npy
+2025-09-08T10:43:44,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_001.npy
+2025-09-08T10:44:40,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_002.npy
+2025-09-08T10:44:48,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_003.npy
+2025-09-08T10:44:58,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_004.npy
+2025-09-08T10:45:07,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_005.npy
+2025-09-08T10:45:16,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_006.npy
+2025-09-08T10:45:24,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_007.npy
+2025-09-08T10:45:32,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_008.npy
+2025-09-08T10:45:40,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_009.npy
+2025-09-08T10:45:48,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_010.npy
+2025-09-08T10:45:57,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_011.npy
+2025-09-08T10:46:44,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_012.npy
+2025-09-08T10:46:53,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_013.npy
+2025-09-08T10:47:01,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_014.npy
+2025-09-08T10:47:09,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_015.npy
+2025-09-08T10:47:32,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_016.npy
+2025-09-08T10:47:41,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_017.npy
+2025-09-08T10:47:49,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_018.npy
+2025-09-08T10:47:57,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_019.npy
+2025-09-08T10:48:05,Buenas tardes,BUENAS_TARDES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_TARDES\BUENAS_TARDES_020.npy
+2025-09-08T10:51:38,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_001.npy
+2025-09-08T10:51:48,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_002.npy
+2025-09-08T10:51:56,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_003.npy
+2025-09-08T10:52:14,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_004.npy
+2025-09-08T10:52:23,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_005.npy
+2025-09-08T10:52:31,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_006.npy
+2025-09-08T10:52:39,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_007.npy
+2025-09-08T10:52:48,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_008.npy
+2025-09-08T10:52:56,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_009.npy
+2025-09-08T10:53:04,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_010.npy
+2025-09-08T10:53:12,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_011.npy
+2025-09-08T10:53:34,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_012.npy
+2025-09-08T10:53:42,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_013.npy
+2025-09-08T10:53:51,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_014.npy
+2025-09-08T10:53:59,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_015.npy
+2025-09-08T10:54:08,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_016.npy
+2025-09-08T10:54:18,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_017.npy
+2025-09-08T10:54:32,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_018.npy
+2025-09-08T10:54:45,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_019.npy
+2025-09-08T10:54:54,Buenas noches,BUENAS_NOCHES,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BUENAS_NOCHES\BUENAS_NOCHES_020.npy
+2025-09-08T10:59:18,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_008.npy
+2025-09-08T10:59:23,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_009.npy
+2025-09-08T10:59:27,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_010.npy
+2025-09-08T10:59:30,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_011.npy
+2025-09-08T10:59:35,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_012.npy
+2025-09-08T10:59:40,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_013.npy
+2025-09-08T10:59:44,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_014.npy
+2025-09-08T10:59:48,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_015.npy
+2025-09-08T10:59:53,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_016.npy
+2025-09-08T10:59:56,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_017.npy
+2025-09-08T11:00:01,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_018.npy
+2025-09-08T11:00:05,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_019.npy
+2025-09-08T11:00:10,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_020.npy
+2025-09-08T11:00:13,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_021.npy
+2025-09-08T11:00:17,Bien,BIEN,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\BIEN\BIEN_022.npy
+2025-09-09T09:59:23,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_001.npy
+2025-09-09T09:59:28,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_002.npy
+2025-09-09T09:59:37,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_003.npy
+2025-09-09T09:59:41,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_004.npy
+2025-09-09T09:59:46,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_005.npy
+2025-09-09T09:59:50,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_006.npy
+2025-09-09T09:59:54,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_007.npy
+2025-09-09T09:59:58,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_008.npy
+2025-09-09T10:00:02,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_009.npy
+2025-09-09T10:00:05,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_010.npy
+2025-09-09T10:00:09,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_011.npy
+2025-09-09T10:00:12,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_012.npy
+2025-09-09T10:00:15,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_013.npy
+2025-09-09T10:00:21,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_014.npy
+2025-09-09T10:00:25,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_015.npy
+2025-09-09T10:00:30,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_016.npy
+2025-09-09T10:00:34,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_017.npy
+2025-09-09T10:00:48,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_018.npy
+2025-09-09T10:00:52,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_019.npy
+2025-09-09T10:00:57,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_020.npy
+2025-09-09T10:01:02,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_021.npy
+2025-09-09T10:01:06,Mal,MAL,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAL\MAL_022.npy
+2025-09-09T10:02:06,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_001.npy
+2025-09-09T10:02:18,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_002.npy
+2025-09-09T10:02:27,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_003.npy
+2025-09-09T10:02:37,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_004.npy
+2025-09-09T10:03:04,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_005.npy
+2025-09-09T10:03:13,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_006.npy
+2025-09-09T10:03:25,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_007.npy
+2025-09-09T10:03:33,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_008.npy
+2025-09-09T10:03:41,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_009.npy
+2025-09-09T10:03:56,Mas o menos,MAS_O_MENOS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MAS_O_MENOS\MAS_O_MENOS_010.npy
+2025-09-09T10:08:02,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_001.npy
+2025-09-09T10:08:11,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_002.npy
+2025-09-09T10:08:19,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_003.npy
+2025-09-09T10:08:27,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_004.npy
+2025-09-09T10:08:36,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_005.npy
+2025-09-09T10:08:44,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_006.npy
+2025-09-09T10:08:52,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_007.npy
+2025-09-09T10:09:01,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_008.npy
+2025-09-09T10:09:09,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_009.npy
+2025-09-09T10:09:17,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_010.npy
+2025-09-09T10:09:25,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_011.npy
+2025-09-09T10:09:33,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_012.npy
+2025-09-09T10:09:41,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_013.npy
+2025-09-09T10:09:49,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_014.npy
+2025-09-09T10:09:57,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_015.npy
+2025-09-09T10:10:07,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_016.npy
+2025-09-09T10:10:15,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_017.npy
+2025-09-09T10:10:23,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_018.npy
+2025-09-09T10:10:31,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_019.npy
+2025-09-09T10:10:39,Por favor,POR_FAVOR,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\POR_FAVOR\POR_FAVOR_020.npy
+2025-09-09T10:15:25,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_001.npy
+2025-09-09T10:15:33,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_002.npy
+2025-09-09T10:15:43,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_003.npy
+2025-09-09T10:15:54,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_004.npy
+2025-09-09T10:16:02,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_005.npy
+2025-09-09T10:16:22,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_006.npy
+2025-09-09T10:16:30,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_007.npy
+2025-09-09T10:16:38,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_008.npy
+2025-09-09T10:16:47,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_009.npy
+2025-09-09T10:16:55,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_010.npy
+2025-09-09T10:17:04,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_011.npy
+2025-09-09T10:17:12,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_012.npy
+2025-09-09T10:17:20,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_013.npy
+2025-09-09T10:17:28,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_014.npy
+2025-09-09T10:17:37,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_015.npy
+2025-09-09T10:17:51,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_016.npy
+2025-09-09T10:17:58,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_017.npy
+2025-09-09T10:18:13,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_018.npy
+2025-09-09T10:18:21,Me ayudas,ME_AYUDAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\ME_AYUDAS\ME_AYUDAS_019.npy
+2025-09-09T10:19:36,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_001.npy
+2025-09-09T10:19:44,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_002.npy
+2025-09-09T10:19:53,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_003.npy
+2025-09-09T10:20:01,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_004.npy
+2025-09-09T10:20:09,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_005.npy
+2025-09-09T10:20:17,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_006.npy
+2025-09-09T10:20:25,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_007.npy
+2025-09-09T10:20:32,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_008.npy
+2025-09-09T10:20:40,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_009.npy
+2025-09-09T10:20:48,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_010.npy
+2025-09-09T10:20:56,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_011.npy
+2025-09-09T10:21:04,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_012.npy
+2025-09-09T10:21:15,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_013.npy
+2025-09-09T10:21:23,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_014.npy
+2025-09-09T10:21:31,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_015.npy
+2025-09-09T10:21:39,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_016.npy
+2025-09-09T10:21:52,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_017.npy
+2025-09-09T10:22:00,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_018.npy
+2025-09-09T10:22:08,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_019.npy
+2025-09-09T10:22:16,Gracias,GRACIAS,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\GRACIAS\GRACIAS_020.npy
+2025-09-09T10:33:02,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_001.npy
+2025-09-09T10:33:11,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_002.npy
+2025-09-09T10:33:19,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_003.npy
+2025-09-09T10:33:27,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_004.npy
+2025-09-09T10:33:35,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_005.npy
+2025-09-09T10:34:12,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_006.npy
+2025-09-09T10:34:22,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_007.npy
+2025-09-09T10:34:31,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_008.npy
+2025-09-09T10:34:39,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_009.npy
+2025-09-09T10:34:47,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_010.npy
+2025-09-09T10:34:55,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_011.npy
+2025-09-09T10:35:05,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_012.npy
+2025-09-09T10:35:13,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_013.npy
+2025-09-09T10:35:21,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_014.npy
+2025-09-09T10:35:29,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_015.npy
+2025-09-09T10:36:06,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_016.npy
+2025-09-09T10:36:13,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_017.npy
+2025-09-09T10:36:26,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_018.npy
+2025-09-09T10:36:34,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_019.npy
+2025-09-09T10:36:42,Disculpa,DISCULPA,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\DISCULPA\DISCULPA_020.npy
+2025-09-18T15:55:13,Paz,PAZ,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\PAZ\PAZ_001.npy
+2025-09-18T15:55:32,Paz,PAZ,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\PAZ\PAZ_002.npy
+2025-09-18T15:55:48,Paz,PAZ,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\PAZ\PAZ_003.npy
+2025-10-02T18:26:41,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_001.npy
+2025-10-02T18:26:51,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_002.npy
+2025-10-02T18:27:00,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_003.npy
+2025-10-02T18:27:29,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_004.npy
+2025-10-02T18:27:37,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_005.npy
+2025-10-02T18:27:46,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_006.npy
+2025-10-02T18:27:54,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_007.npy
+2025-10-02T18:28:03,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_008.npy
+2025-10-02T18:28:12,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_009.npy
+2025-10-02T18:28:20,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_010.npy
+2025-10-02T18:28:29,Hombre,HOMBRE,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\HOMBRE\HOMBRE_011.npy
+2025-10-02T18:29:27,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_001.npy
+2025-10-02T18:40:36,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_002.npy
+2025-10-02T18:40:57,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_003.npy
+2025-10-02T18:41:06,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_004.npy
+2025-10-02T18:41:14,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_005.npy
+2025-10-02T18:47:01,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_006.npy
+2025-10-02T18:47:10,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_007.npy
+2025-10-02T18:47:18,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_008.npy
+2025-10-02T18:47:26,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_009.npy
+2025-10-02T18:47:34,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_010.npy
+2025-10-02T18:47:42,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_011.npy
+2025-10-02T18:47:50,Mujer,MUJER,d:\Tesis\Proyecto_LSP_keras\..\coordenadas\MUJER\MUJER_012.npy
+2025-10-03T11:25:54,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_001.npy
+2025-10-03T11:25:57,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_002.npy
+2025-10-03T11:26:01,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_003.npy
+2025-10-03T11:26:04,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_004.npy
+2025-10-03T11:26:08,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_005.npy
+2025-10-03T11:26:12,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_006.npy
+2025-10-03T11:26:15,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_007.npy
+2025-10-03T11:26:19,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_008.npy
+2025-10-03T11:26:22,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_009.npy
+2025-10-03T11:26:25,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_010.npy
+2025-10-03T11:26:28,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_011.npy
+2025-10-03T11:26:32,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_012.npy
+2025-10-03T11:26:36,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_013.npy
+2025-10-03T11:26:40,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_014.npy
+2025-10-03T11:26:43,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_015.npy
+2025-10-03T11:26:47,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_016.npy
+2025-10-03T11:26:50,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_017.npy
+2025-10-03T11:26:54,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_018.npy
+2025-10-03T11:27:03,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_019.npy
+2025-10-03T11:27:09,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_020.npy
+2025-10-03T11:27:12,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_021.npy
+2025-10-03T11:27:16,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_022.npy
+2025-10-03T11:27:20,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_023.npy
+2025-10-03T11:27:24,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_024.npy
+2025-10-03T11:27:27,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_025.npy
+2025-10-03T11:27:31,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_026.npy
+2025-10-03T11:27:35,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_027.npy
+2025-10-03T11:27:40,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_028.npy
+2025-10-03T11:27:44,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_029.npy
+2025-10-03T11:27:47,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_030.npy
+2025-10-03T11:27:51,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_031.npy
+2025-10-03T11:27:55,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_032.npy
+2025-10-03T11:28:03,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_033.npy
+2025-10-03T11:28:08,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_034.npy
+2025-10-03T11:28:12,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_035.npy
+2025-10-03T11:28:16,Letra_A,LETRA_A,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_A\LETRA_A_036.npy
+2025-10-03T11:29:51,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_001.npy
+2025-10-03T11:29:54,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_002.npy
+2025-10-03T11:29:57,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_003.npy
+2025-10-03T11:30:01,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_004.npy
+2025-10-03T11:30:05,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_005.npy
+2025-10-03T11:30:08,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_006.npy
+2025-10-03T11:30:12,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_007.npy
+2025-10-03T11:30:16,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_008.npy
+2025-10-03T11:30:19,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_009.npy
+2025-10-03T11:30:22,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_010.npy
+2025-10-03T11:30:28,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_011.npy
+2025-10-03T11:30:32,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_012.npy
+2025-10-03T11:30:35,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_013.npy
+2025-10-03T11:30:39,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_014.npy
+2025-10-03T11:30:43,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_015.npy
+2025-10-03T11:31:08,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_016.npy
+2025-10-03T11:31:11,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_017.npy
+2025-10-03T11:31:15,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_018.npy
+2025-10-03T11:31:24,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_019.npy
+2025-10-03T11:31:28,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_020.npy
+2025-10-03T11:31:32,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_021.npy
+2025-10-03T11:31:35,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_022.npy
+2025-10-03T11:31:40,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_023.npy
+2025-10-03T11:31:43,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_024.npy
+2025-10-03T11:31:51,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_025.npy
+2025-10-03T11:31:55,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_026.npy
+2025-10-03T11:31:58,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_027.npy
+2025-10-03T11:32:01,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_028.npy
+2025-10-03T11:32:05,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_029.npy
+2025-10-03T11:32:09,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_030.npy
+2025-10-03T11:32:12,Letra_B,LETRA_B,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_B\LETRA_B_031.npy
+2025-10-03T11:33:02,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_001.npy
+2025-10-03T11:33:06,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_002.npy
+2025-10-03T11:33:10,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_003.npy
+2025-10-03T11:33:13,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_004.npy
+2025-10-03T11:33:17,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_005.npy
+2025-10-03T11:33:21,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_006.npy
+2025-10-03T11:33:24,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_007.npy
+2025-10-03T11:33:30,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_008.npy
+2025-10-03T11:33:34,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_009.npy
+2025-10-03T11:33:37,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_010.npy
+2025-10-03T11:33:42,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_011.npy
+2025-10-03T11:33:46,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_012.npy
+2025-10-03T11:33:49,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_013.npy
+2025-10-03T11:33:56,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_014.npy
+2025-10-03T11:33:59,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_015.npy
+2025-10-03T11:34:04,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_016.npy
+2025-10-03T11:34:07,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_017.npy
+2025-10-03T11:34:11,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_018.npy
+2025-10-03T11:34:14,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_019.npy
+2025-10-03T11:34:18,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_020.npy
+2025-10-03T11:34:21,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_021.npy
+2025-10-03T11:34:25,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_022.npy
+2025-10-03T11:34:29,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_023.npy
+2025-10-03T11:34:33,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_024.npy
+2025-10-03T11:34:36,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_025.npy
+2025-10-03T11:34:39,Letra_C,LETRA_C,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_C\LETRA_C_026.npy
+2025-10-03T11:35:38,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_001.npy
+2025-10-03T11:35:42,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_002.npy
+2025-10-03T11:35:46,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_003.npy
+2025-10-03T11:35:49,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_004.npy
+2025-10-03T11:35:53,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_005.npy
+2025-10-03T11:35:56,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_006.npy
+2025-10-03T11:36:00,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_007.npy
+2025-10-03T11:36:06,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_008.npy
+2025-10-03T11:36:10,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_009.npy
+2025-10-03T11:36:20,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_010.npy
+2025-10-03T11:36:24,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_011.npy
+2025-10-03T11:36:28,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_012.npy
+2025-10-03T11:36:32,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_013.npy
+2025-10-03T11:36:36,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_014.npy
+2025-10-03T11:36:39,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_015.npy
+2025-10-03T11:36:43,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_016.npy
+2025-10-03T11:36:46,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_017.npy
+2025-10-03T11:36:49,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_018.npy
+2025-10-03T11:36:53,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_019.npy
+2025-10-03T11:36:57,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_020.npy
+2025-10-03T11:37:00,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_021.npy
+2025-10-03T11:37:03,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_022.npy
+2025-10-03T11:37:07,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_023.npy
+2025-10-03T11:37:11,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_024.npy
+2025-10-03T11:37:14,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_025.npy
+2025-10-03T11:37:18,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_026.npy
+2025-10-03T11:37:22,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_027.npy
+2025-10-03T11:37:26,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_028.npy
+2025-10-03T11:37:29,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_029.npy
+2025-10-03T11:37:33,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_030.npy
+2025-10-03T11:37:37,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_031.npy
+2025-10-03T11:37:44,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_032.npy
+2025-10-03T11:37:47,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_033.npy
+2025-10-03T11:37:50,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_034.npy
+2025-10-03T11:37:55,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_035.npy
+2025-10-03T11:37:59,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_036.npy
+2025-10-03T11:38:02,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_037.npy
+2025-10-03T11:38:09,Letra_D,LETRA_D,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_D\LETRA_D_038.npy
+2025-10-03T11:50:25,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_001.npy
+2025-10-03T11:50:28,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_002.npy
+2025-10-03T11:50:31,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_003.npy
+2025-10-03T11:50:35,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_004.npy
+2025-10-03T11:50:38,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_005.npy
+2025-10-03T11:50:42,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_006.npy
+2025-10-03T11:50:45,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_007.npy
+2025-10-03T11:50:48,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_008.npy
+2025-10-03T11:50:52,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_009.npy
+2025-10-03T11:50:55,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_010.npy
+2025-10-03T11:50:59,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_011.npy
+2025-10-03T11:51:04,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_012.npy
+2025-10-03T11:51:13,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_013.npy
+2025-10-03T11:51:16,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_014.npy
+2025-10-03T11:51:20,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_015.npy
+2025-10-03T11:51:24,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_016.npy
+2025-10-03T11:51:28,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_017.npy
+2025-10-03T11:51:33,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_018.npy
+2025-10-03T11:51:39,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_019.npy
+2025-10-03T11:51:44,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_020.npy
+2025-10-03T11:51:49,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_021.npy
+2025-10-03T11:51:52,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_022.npy
+2025-10-03T11:51:56,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_023.npy
+2025-10-03T11:52:00,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_024.npy
+2025-10-03T11:52:20,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_025.npy
+2025-10-03T11:52:23,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_026.npy
+2025-10-03T11:52:26,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_027.npy
+2025-10-03T11:52:30,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_028.npy
+2025-10-03T11:52:33,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_029.npy
+2025-10-03T11:52:37,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_030.npy
+2025-10-03T11:52:44,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_031.npy
+2025-10-03T11:52:50,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_032.npy
+2025-10-03T11:52:53,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_033.npy
+2025-10-03T11:52:58,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_034.npy
+2025-10-03T11:53:01,Letra_E,LETRA_E,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_E\LETRA_E_035.npy
+2025-10-03T11:54:11,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_001.npy
+2025-10-03T11:54:14,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_002.npy
+2025-10-03T11:54:17,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_003.npy
+2025-10-03T11:54:21,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_004.npy
+2025-10-03T11:54:24,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_005.npy
+2025-10-03T11:54:27,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_006.npy
+2025-10-03T11:54:30,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_007.npy
+2025-10-03T11:54:34,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_008.npy
+2025-10-03T11:54:38,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_009.npy
+2025-10-03T11:54:42,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_010.npy
+2025-10-03T11:54:46,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_011.npy
+2025-10-03T11:54:50,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_012.npy
+2025-10-03T11:54:54,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_013.npy
+2025-10-03T11:54:58,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_014.npy
+2025-10-03T11:55:01,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_015.npy
+2025-10-03T11:55:05,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_016.npy
+2025-10-03T11:55:08,Letra_F,LETRA_F,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_F\LETRA_F_017.npy
+2025-10-03T11:56:32,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_001.npy
+2025-10-03T11:56:36,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_002.npy
+2025-10-03T11:56:40,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_003.npy
+2025-10-03T11:56:44,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_004.npy
+2025-10-03T11:56:48,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_005.npy
+2025-10-03T11:56:52,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_006.npy
+2025-10-03T11:56:55,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_007.npy
+2025-10-03T11:56:59,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_008.npy
+2025-10-03T11:57:03,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_009.npy
+2025-10-03T11:57:06,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_010.npy
+2025-10-03T11:57:09,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_011.npy
+2025-10-03T11:57:13,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_012.npy
+2025-10-03T11:57:16,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_013.npy
+2025-10-03T11:57:19,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_014.npy
+2025-10-03T11:57:24,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_015.npy
+2025-10-03T11:57:27,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_016.npy
+2025-10-03T11:57:31,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_017.npy
+2025-10-03T11:57:35,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_018.npy
+2025-10-03T11:57:39,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_019.npy
+2025-10-03T11:57:43,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_020.npy
+2025-10-03T11:57:47,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_021.npy
+2025-10-03T11:57:51,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_022.npy
+2025-10-03T11:57:55,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_023.npy
+2025-10-03T11:58:02,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_024.npy
+2025-10-03T11:58:09,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_025.npy
+2025-10-03T11:58:13,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_026.npy
+2025-10-03T11:58:17,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_027.npy
+2025-10-03T11:58:20,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_028.npy
+2025-10-03T11:58:24,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_029.npy
+2025-10-03T11:58:29,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_030.npy
+2025-10-03T11:58:32,Letra_G,LETRA_G,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_G\LETRA_G_031.npy
+2025-10-04T17:49:27,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_001.npy
+2025-10-04T17:49:31,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_002.npy
+2025-10-04T17:49:35,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_003.npy
+2025-10-04T17:49:49,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_004.npy
+2025-10-04T17:49:52,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_005.npy
+2025-10-04T17:49:56,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_006.npy
+2025-10-04T17:49:59,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_007.npy
+2025-10-04T17:50:04,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_008.npy
+2025-10-04T17:50:07,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_009.npy
+2025-10-04T17:50:11,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_010.npy
+2025-10-04T17:50:16,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_011.npy
+2025-10-04T17:50:20,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_012.npy
+2025-10-04T17:50:24,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_013.npy
+2025-10-04T17:50:27,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_014.npy
+2025-10-04T17:50:30,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_015.npy
+2025-10-04T17:50:34,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_016.npy
+2025-10-04T17:50:38,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_017.npy
+2025-10-04T17:50:41,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_018.npy
+2025-10-04T17:50:45,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_019.npy
+2025-10-04T17:50:49,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_020.npy
+2025-10-04T17:50:53,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_021.npy
+2025-10-04T17:51:00,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_022.npy
+2025-10-04T17:51:04,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_023.npy
+2025-10-04T17:51:07,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_024.npy
+2025-10-04T17:51:10,Letra_H,LETRA_H,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_H\LETRA_H_025.npy
+2025-10-04T17:58:54,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_001.npy
+2025-10-04T17:58:58,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_002.npy
+2025-10-04T17:59:01,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_003.npy
+2025-10-04T18:01:01,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_004.npy
+2025-10-04T18:01:10,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_005.npy
+2025-10-04T18:01:14,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_006.npy
+2025-10-04T18:01:17,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_007.npy
+2025-10-04T18:02:22,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_008.npy
+2025-10-04T18:02:26,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_009.npy
+2025-10-04T18:02:29,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_010.npy
+2025-10-04T18:02:33,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_011.npy
+2025-10-04T18:02:36,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_012.npy
+2025-10-04T18:02:39,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_013.npy
+2025-10-04T18:02:43,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_014.npy
+2025-10-04T18:02:46,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_015.npy
+2025-10-04T18:02:50,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_016.npy
+2025-10-04T18:02:54,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_017.npy
+2025-10-04T18:02:57,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_018.npy
+2025-10-04T18:03:01,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_019.npy
+2025-10-04T18:03:07,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_020.npy
+2025-10-04T18:03:10,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_021.npy
+2025-10-04T18:03:14,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_022.npy
+2025-10-04T18:03:17,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_023.npy
+2025-10-04T18:03:28,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_024.npy
+2025-10-04T18:03:31,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_025.npy
+2025-10-04T18:03:35,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_026.npy
+2025-10-04T18:03:39,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_027.npy
+2025-10-04T18:03:42,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_028.npy
+2025-10-04T18:03:46,Letra_I,LETRA_I,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_I\LETRA_I_029.npy
+2025-10-04T18:05:35,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_001.npy
+2025-10-04T18:05:44,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_002.npy
+2025-10-04T18:05:55,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_003.npy
+2025-10-04T18:06:12,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_004.npy
+2025-10-04T18:06:20,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_005.npy
+2025-10-04T18:06:30,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_006.npy
+2025-10-04T18:06:41,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_007.npy
+2025-10-04T18:06:49,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_008.npy
+2025-10-04T18:06:57,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_009.npy
+2025-10-04T18:07:44,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_010.npy
+2025-10-04T18:07:52,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_011.npy
+2025-10-04T18:08:00,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_012.npy
+2025-10-04T18:08:08,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_013.npy
+2025-10-04T18:08:15,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_014.npy
+2025-10-04T18:08:32,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_015.npy
+2025-10-04T18:08:39,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_016.npy
+2025-10-04T18:08:50,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_017.npy
+2025-10-04T18:08:58,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_018.npy
+2025-10-04T18:09:06,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_019.npy
+2025-10-04T18:09:15,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_020.npy
+2025-10-04T18:09:27,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_021.npy
+2025-10-04T18:09:36,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_022.npy
+2025-10-04T18:09:45,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_023.npy
+2025-10-04T18:09:53,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_024.npy
+2025-10-04T18:10:00,Letra_J,LETRA_J,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_J\LETRA_J_025.npy
+2025-10-04T18:11:55,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_001.npy
+2025-10-04T18:11:58,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_002.npy
+2025-10-04T18:12:01,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_003.npy
+2025-10-04T18:12:05,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_004.npy
+2025-10-04T18:12:08,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_005.npy
+2025-10-04T18:12:12,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_006.npy
+2025-10-04T18:12:15,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_007.npy
+2025-10-04T18:12:19,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_008.npy
+2025-10-04T18:12:25,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_009.npy
+2025-10-04T18:12:28,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_010.npy
+2025-10-04T18:12:32,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_011.npy
+2025-10-04T18:12:36,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_012.npy
+2025-10-04T18:12:39,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_013.npy
+2025-10-04T18:12:43,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_014.npy
+2025-10-04T18:12:48,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_015.npy
+2025-10-04T18:12:52,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_016.npy
+2025-10-04T18:12:56,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_017.npy
+2025-10-04T18:12:59,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_018.npy
+2025-10-04T18:13:03,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_019.npy
+2025-10-04T18:13:07,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_020.npy
+2025-10-04T18:13:10,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_021.npy
+2025-10-04T18:13:14,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_022.npy
+2025-10-04T18:13:24,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_023.npy
+2025-10-04T18:13:27,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_024.npy
+2025-10-04T18:13:31,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_025.npy
+2025-10-04T18:13:34,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_026.npy
+2025-10-04T18:13:38,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_027.npy
+2025-10-04T18:13:41,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_028.npy
+2025-10-04T18:13:44,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_029.npy
+2025-10-04T18:13:50,Letra_K,LETRA_K,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_K\LETRA_K_030.npy
+2025-10-04T18:15:16,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_001.npy
+2025-10-04T18:15:21,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_002.npy
+2025-10-04T18:15:24,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_003.npy
+2025-10-04T18:15:27,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_004.npy
+2025-10-04T18:15:31,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_005.npy
+2025-10-04T18:15:37,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_006.npy
+2025-10-04T18:15:40,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_007.npy
+2025-10-04T18:15:45,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_008.npy
+2025-10-04T18:15:49,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_009.npy
+2025-10-04T18:15:52,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_010.npy
+2025-10-04T18:15:56,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_011.npy
+2025-10-04T18:16:03,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_012.npy
+2025-10-04T18:16:06,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_013.npy
+2025-10-04T18:16:10,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_014.npy
+2025-10-04T18:16:13,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_015.npy
+2025-10-04T18:16:17,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_016.npy
+2025-10-04T18:16:21,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_017.npy
+2025-10-04T18:16:25,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_018.npy
+2025-10-04T18:16:28,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_019.npy
+2025-10-04T18:16:32,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_020.npy
+2025-10-04T18:16:35,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_021.npy
+2025-10-04T18:16:39,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_022.npy
+2025-10-04T18:16:43,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_023.npy
+2025-10-04T18:16:47,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_024.npy
+2025-10-04T18:16:50,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_025.npy
+2025-10-04T18:16:54,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_026.npy
+2025-10-04T18:16:57,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_027.npy
+2025-10-04T18:17:01,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_028.npy
+2025-10-04T18:17:06,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_029.npy
+2025-10-04T18:17:10,Letra_L,LETRA_L,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_L\LETRA_L_030.npy
+2025-10-04T18:18:15,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_001.npy
+2025-10-04T18:18:18,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_002.npy
+2025-10-04T18:18:22,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_003.npy
+2025-10-04T18:18:25,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_004.npy
+2025-10-04T18:18:28,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_005.npy
+2025-10-04T18:18:32,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_006.npy
+2025-10-04T18:18:36,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_007.npy
+2025-10-04T18:18:40,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_008.npy
+2025-10-04T18:18:43,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_009.npy
+2025-10-04T18:18:47,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_010.npy
+2025-10-04T18:18:51,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_011.npy
+2025-10-04T18:19:14,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_012.npy
+2025-10-04T18:19:17,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_013.npy
+2025-10-04T18:19:21,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_014.npy
+2025-10-04T18:19:25,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_015.npy
+2025-10-04T18:19:29,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_016.npy
+2025-10-04T18:19:33,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_017.npy
+2025-10-04T18:19:37,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_018.npy
+2025-10-04T18:19:41,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_019.npy
+2025-10-04T18:19:45,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_020.npy
+2025-10-04T18:19:50,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_021.npy
+2025-10-04T18:19:54,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_022.npy
+2025-10-04T18:19:58,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_023.npy
+2025-10-04T18:20:01,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_024.npy
+2025-10-04T18:20:05,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_025.npy
+2025-10-04T18:20:10,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_026.npy
+2025-10-04T18:20:13,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_027.npy
+2025-10-04T18:20:17,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_028.npy
+2025-10-04T18:20:20,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_029.npy
+2025-10-04T18:20:24,Letra_M,LETRA_M,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_M\LETRA_M_030.npy
+2025-10-04T18:23:47,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_001.npy
+2025-10-04T18:23:51,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_002.npy
+2025-10-04T18:23:54,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_003.npy
+2025-10-04T18:23:58,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_004.npy
+2025-10-04T18:24:01,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_005.npy
+2025-10-04T18:24:04,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_006.npy
+2025-10-04T18:24:10,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_007.npy
+2025-10-04T18:24:14,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_008.npy
+2025-10-04T18:24:18,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_009.npy
+2025-10-04T18:24:21,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_010.npy
+2025-10-04T18:24:25,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_011.npy
+2025-10-04T18:24:29,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_012.npy
+2025-10-04T18:24:33,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_013.npy
+2025-10-04T18:24:37,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_014.npy
+2025-10-04T18:24:41,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_015.npy
+2025-10-04T18:27:27,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_016.npy
+2025-10-04T18:27:31,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_017.npy
+2025-10-04T18:27:34,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_018.npy
+2025-10-04T18:27:38,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_019.npy
+2025-10-04T18:27:41,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_020.npy
+2025-10-04T18:27:45,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_021.npy
+2025-10-04T18:27:49,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_022.npy
+2025-10-04T18:27:54,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_023.npy
+2025-10-04T18:27:58,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_024.npy
+2025-10-04T18:28:01,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_025.npy
+2025-10-04T18:28:05,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_026.npy
+2025-10-04T18:28:09,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_027.npy
+2025-10-04T18:28:13,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_028.npy
+2025-10-04T18:28:16,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_029.npy
+2025-10-04T18:28:20,Letra_N,LETRA_N,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N\LETRA_N_030.npy
+2025-10-04T18:30:28,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_001.npy
+2025-10-04T18:30:50,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_002.npy
+2025-10-04T18:30:58,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_003.npy
+2025-10-04T18:31:06,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_004.npy
+2025-10-04T18:31:14,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_005.npy
+2025-10-04T18:31:22,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_006.npy
+2025-10-04T18:31:30,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_007.npy
+2025-10-04T18:31:37,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_008.npy
+2025-10-04T18:31:45,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_009.npy
+2025-10-04T18:31:52,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_010.npy
+2025-10-04T18:32:01,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_011.npy
+2025-10-04T18:32:09,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_012.npy
+2025-10-04T18:32:16,Letra_N1,LETRA_N1,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_N1\LETRA_N1_013.npy
+2025-10-04T18:33:02,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_001.npy
+2025-10-04T18:33:06,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_002.npy
+2025-10-04T18:33:10,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_003.npy
+2025-10-04T18:33:13,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_004.npy
+2025-10-04T18:33:17,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_005.npy
+2025-10-04T18:33:20,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_006.npy
+2025-10-04T18:33:26,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_007.npy
+2025-10-04T18:33:29,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_008.npy
+2025-10-04T18:33:33,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_009.npy
+2025-10-04T18:33:37,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_010.npy
+2025-10-04T18:33:40,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_011.npy
+2025-10-04T18:33:44,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_012.npy
+2025-10-04T18:33:47,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_013.npy
+2025-10-04T18:33:51,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_014.npy
+2025-10-04T18:33:54,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_015.npy
+2025-10-04T18:33:58,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_016.npy
+2025-10-04T18:34:02,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_017.npy
+2025-10-04T18:34:06,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_018.npy
+2025-10-04T18:34:10,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_019.npy
+2025-10-04T18:34:13,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_020.npy
+2025-10-04T18:34:17,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_021.npy
+2025-10-04T18:34:22,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_022.npy
+2025-10-04T18:34:30,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_023.npy
+2025-10-04T18:34:33,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_024.npy
+2025-10-04T18:34:37,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_025.npy
+2025-10-04T18:34:41,Letra_O,LETRA_O,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_O\LETRA_O_026.npy
+2025-10-05T11:34:34,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_001.npy
+2025-10-05T11:34:38,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_002.npy
+2025-10-05T11:34:43,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_003.npy
+2025-10-05T11:34:48,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_004.npy
+2025-10-05T11:34:51,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_005.npy
+2025-10-05T11:34:55,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_006.npy
+2025-10-05T11:34:59,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_007.npy
+2025-10-05T11:35:03,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_008.npy
+2025-10-05T11:35:07,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_009.npy
+2025-10-05T11:35:12,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_010.npy
+2025-10-05T11:35:16,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_011.npy
+2025-10-05T11:35:19,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_012.npy
+2025-10-05T11:35:25,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_013.npy
+2025-10-05T11:35:29,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_014.npy
+2025-10-05T11:35:45,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_015.npy
+2025-10-05T11:35:49,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_016.npy
+2025-10-05T11:35:52,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_017.npy
+2025-10-05T11:35:56,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_018.npy
+2025-10-05T11:36:00,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_019.npy
+2025-10-05T11:36:08,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_020.npy
+2025-10-05T11:36:13,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_021.npy
+2025-10-05T11:36:17,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_022.npy
+2025-10-05T11:36:20,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_023.npy
+2025-10-05T11:36:25,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_024.npy
+2025-10-05T11:36:29,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_025.npy
+2025-10-05T11:36:32,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_026.npy
+2025-10-05T11:36:36,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_027.npy
+2025-10-05T11:36:39,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_028.npy
+2025-10-05T11:36:44,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_029.npy
+2025-10-05T11:36:48,Letra_P,LETRA_P,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_P\LETRA_P_030.npy
+2025-10-05T11:38:49,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_001.npy
+2025-10-05T11:38:53,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_002.npy
+2025-10-05T11:38:56,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_003.npy
+2025-10-05T11:39:00,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_004.npy
+2025-10-05T11:39:09,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_005.npy
+2025-10-05T11:39:13,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_006.npy
+2025-10-05T11:39:16,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_007.npy
+2025-10-05T11:39:20,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_008.npy
+2025-10-05T11:39:24,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_009.npy
+2025-10-05T11:39:29,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_010.npy
+2025-10-05T11:39:33,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_011.npy
+2025-10-05T11:39:39,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_012.npy
+2025-10-05T11:39:44,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_013.npy
+2025-10-05T11:39:47,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_014.npy
+2025-10-05T11:39:51,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_015.npy
+2025-10-05T11:39:55,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_016.npy
+2025-10-05T11:40:03,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_017.npy
+2025-10-05T11:40:07,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_018.npy
+2025-10-05T11:40:10,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_019.npy
+2025-10-05T11:40:15,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_020.npy
+2025-10-05T11:40:21,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_021.npy
+2025-10-05T11:40:24,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_022.npy
+2025-10-05T11:40:34,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_023.npy
+2025-10-05T11:40:38,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_024.npy
+2025-10-05T11:40:42,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_025.npy
+2025-10-05T11:40:51,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_026.npy
+2025-10-05T11:40:54,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_027.npy
+2025-10-05T11:40:58,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_028.npy
+2025-10-05T11:41:04,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_029.npy
+2025-10-05T11:41:08,Letra_Q,LETRA_Q,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Q\LETRA_Q_030.npy
+2025-10-05T11:48:58,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_001.npy
+2025-10-05T11:49:02,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_002.npy
+2025-10-05T11:49:17,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_003.npy
+2025-10-05T11:49:20,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_004.npy
+2025-10-05T11:49:30,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_005.npy
+2025-10-05T11:49:34,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_006.npy
+2025-10-05T11:49:38,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_007.npy
+2025-10-05T11:49:42,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_008.npy
+2025-10-05T12:03:05,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_009.npy
+2025-10-05T12:03:08,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_010.npy
+2025-10-05T12:03:12,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_011.npy
+2025-10-05T12:03:16,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_012.npy
+2025-10-05T12:03:19,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_013.npy
+2025-10-05T12:03:23,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_014.npy
+2025-10-05T12:03:26,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_015.npy
+2025-10-05T12:03:30,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_016.npy
+2025-10-05T12:03:34,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_017.npy
+2025-10-05T12:03:42,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_018.npy
+2025-10-05T12:03:54,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_019.npy
+2025-10-05T12:03:57,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_020.npy
+2025-10-05T12:04:01,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_021.npy
+2025-10-05T12:04:05,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_022.npy
+2025-10-05T12:04:08,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_023.npy
+2025-10-05T12:04:12,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_024.npy
+2025-10-05T12:04:17,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_025.npy
+2025-10-05T12:04:20,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_026.npy
+2025-10-05T12:04:23,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_027.npy
+2025-10-05T12:04:26,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_028.npy
+2025-10-05T12:04:30,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_029.npy
+2025-10-05T12:04:34,Letra_R,LETRA_R,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_R\LETRA_R_030.npy
+2025-10-05T12:09:35,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_001.npy
+2025-10-05T12:09:39,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_002.npy
+2025-10-05T12:09:43,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_003.npy
+2025-10-05T12:09:46,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_004.npy
+2025-10-05T12:09:50,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_005.npy
+2025-10-05T12:09:56,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_006.npy
+2025-10-05T12:10:00,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_007.npy
+2025-10-05T12:10:03,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_008.npy
+2025-10-05T12:10:07,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_009.npy
+2025-10-05T12:10:12,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_010.npy
+2025-10-05T12:10:16,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_011.npy
+2025-10-05T12:10:21,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_012.npy
+2025-10-05T12:10:24,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_013.npy
+2025-10-05T12:10:29,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_014.npy
+2025-10-05T12:10:32,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_015.npy
+2025-10-05T12:10:37,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_016.npy
+2025-10-05T12:10:41,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_017.npy
+2025-10-05T12:10:52,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_018.npy
+2025-10-05T12:10:55,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_019.npy
+2025-10-05T12:10:59,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_020.npy
+2025-10-05T12:11:04,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_021.npy
+2025-10-05T12:11:08,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_022.npy
+2025-10-05T12:11:11,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_023.npy
+2025-10-05T12:11:15,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_024.npy
+2025-10-05T12:11:19,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_025.npy
+2025-10-05T12:11:23,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_026.npy
+2025-10-05T12:11:27,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_027.npy
+2025-10-05T12:11:32,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_028.npy
+2025-10-05T12:11:36,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_029.npy
+2025-10-05T12:11:39,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_030.npy
+2025-10-05T12:11:43,Letra_S,LETRA_S,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_S\LETRA_S_031.npy
+2025-10-05T12:12:35,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_001.npy
+2025-10-05T12:12:38,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_002.npy
+2025-10-05T12:12:42,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_003.npy
+2025-10-05T12:12:45,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_004.npy
+2025-10-05T12:12:51,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_005.npy
+2025-10-05T12:12:54,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_006.npy
+2025-10-05T12:12:58,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_007.npy
+2025-10-05T12:13:04,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_008.npy
+2025-10-05T12:13:07,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_009.npy
+2025-10-05T12:13:13,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_010.npy
+2025-10-05T12:13:17,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_011.npy
+2025-10-05T12:13:47,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_012.npy
+2025-10-05T12:13:51,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_013.npy
+2025-10-05T12:13:54,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_014.npy
+2025-10-05T12:13:58,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_015.npy
+2025-10-05T12:14:02,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_016.npy
+2025-10-05T12:14:05,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_017.npy
+2025-10-05T12:14:09,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_018.npy
+2025-10-05T12:14:13,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_019.npy
+2025-10-05T12:14:17,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_020.npy
+2025-10-05T12:14:23,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_021.npy
+2025-10-05T12:14:27,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_022.npy
+2025-10-05T12:14:30,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_023.npy
+2025-10-05T12:14:34,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_024.npy
+2025-10-05T12:14:37,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_025.npy
+2025-10-05T12:14:41,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_026.npy
+2025-10-05T12:14:45,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_027.npy
+2025-10-05T12:14:48,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_028.npy
+2025-10-05T12:14:52,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_029.npy
+2025-10-05T12:14:55,Letra_T,LETRA_T,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_T\LETRA_T_030.npy
+2025-10-05T12:16:15,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_001.npy
+2025-10-05T12:16:19,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_002.npy
+2025-10-05T12:16:22,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_003.npy
+2025-10-05T12:16:26,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_004.npy
+2025-10-05T12:16:29,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_005.npy
+2025-10-05T12:16:33,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_006.npy
+2025-10-05T12:16:36,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_007.npy
+2025-10-05T12:16:40,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_008.npy
+2025-10-05T12:16:43,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_009.npy
+2025-10-05T12:16:47,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_010.npy
+2025-10-05T12:16:50,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_011.npy
+2025-10-05T12:16:54,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_012.npy
+2025-10-05T12:16:58,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_013.npy
+2025-10-05T12:17:01,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_014.npy
+2025-10-05T12:17:06,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_015.npy
+2025-10-05T12:17:10,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_016.npy
+2025-10-05T12:17:14,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_017.npy
+2025-10-05T12:17:18,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_018.npy
+2025-10-05T12:17:21,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_019.npy
+2025-10-05T12:17:26,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_020.npy
+2025-10-05T12:17:30,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_021.npy
+2025-10-05T12:17:33,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_022.npy
+2025-10-05T12:17:37,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_023.npy
+2025-10-05T12:17:41,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_024.npy
+2025-10-05T12:17:44,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_025.npy
+2025-10-05T12:17:48,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_026.npy
+2025-10-05T12:17:52,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_027.npy
+2025-10-05T12:17:55,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_028.npy
+2025-10-05T12:17:59,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_029.npy
+2025-10-05T12:18:03,Letra_U,LETRA_U,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_U\LETRA_U_030.npy
+2025-10-05T12:20:39,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_001.npy
+2025-10-05T12:20:42,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_002.npy
+2025-10-05T12:20:46,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_003.npy
+2025-10-05T12:20:49,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_004.npy
+2025-10-05T12:20:52,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_005.npy
+2025-10-05T12:20:56,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_006.npy
+2025-10-05T12:20:59,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_007.npy
+2025-10-05T12:21:02,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_008.npy
+2025-10-05T12:21:06,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_009.npy
+2025-10-05T12:21:09,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_010.npy
+2025-10-05T12:21:13,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_011.npy
+2025-10-05T12:21:16,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_012.npy
+2025-10-05T12:21:20,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_013.npy
+2025-10-05T12:21:23,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_014.npy
+2025-10-05T12:21:27,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_015.npy
+2025-10-05T12:21:30,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_016.npy
+2025-10-05T12:21:34,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_017.npy
+2025-10-05T12:21:39,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_018.npy
+2025-10-05T12:21:43,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_019.npy
+2025-10-05T12:21:46,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_020.npy
+2025-10-05T12:21:50,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_021.npy
+2025-10-05T12:21:53,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_022.npy
+2025-10-05T12:21:56,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_023.npy
+2025-10-05T12:22:00,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_024.npy
+2025-10-05T12:22:03,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_025.npy
+2025-10-05T12:22:08,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_026.npy
+2025-10-05T12:22:11,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_027.npy
+2025-10-05T12:22:15,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_028.npy
+2025-10-05T12:22:18,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_029.npy
+2025-10-05T12:22:22,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_030.npy
+2025-10-05T12:22:25,Letra_V,LETRA_V,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_V\LETRA_V_031.npy
+2025-10-05T12:23:08,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_001.npy
+2025-10-05T12:23:11,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_002.npy
+2025-10-05T12:23:15,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_003.npy
+2025-10-05T12:23:19,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_004.npy
+2025-10-05T12:23:22,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_005.npy
+2025-10-05T12:23:26,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_006.npy
+2025-10-05T12:23:30,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_007.npy
+2025-10-05T12:23:34,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_008.npy
+2025-10-05T12:23:38,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_009.npy
+2025-10-05T12:23:42,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_010.npy
+2025-10-05T12:23:46,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_011.npy
+2025-10-05T12:23:58,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_012.npy
+2025-10-05T12:24:01,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_013.npy
+2025-10-05T12:24:05,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_014.npy
+2025-10-05T12:24:09,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_015.npy
+2025-10-05T12:24:13,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_016.npy
+2025-10-05T12:24:26,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_017.npy
+2025-10-05T12:24:29,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_018.npy
+2025-10-05T12:24:33,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_019.npy
+2025-10-05T12:24:36,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_020.npy
+2025-10-05T12:24:40,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_021.npy
+2025-10-05T12:24:45,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_022.npy
+2025-10-05T12:24:48,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_023.npy
+2025-10-05T12:24:51,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_024.npy
+2025-10-05T12:24:55,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_025.npy
+2025-10-05T12:24:59,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_026.npy
+2025-10-05T12:25:03,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_027.npy
+2025-10-05T12:25:07,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_028.npy
+2025-10-05T12:25:11,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_029.npy
+2025-10-05T12:25:14,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_030.npy
+2025-10-05T12:25:17,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_031.npy
+2025-10-05T12:25:21,Letra_W,LETRA_W,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_W\LETRA_W_032.npy
+2025-10-05T12:30:38,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_001.npy
+2025-10-05T12:30:41,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_002.npy
+2025-10-05T12:30:45,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_003.npy
+2025-10-05T12:30:48,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_004.npy
+2025-10-05T12:30:51,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_005.npy
+2025-10-05T12:30:56,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_006.npy
+2025-10-05T12:31:00,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_007.npy
+2025-10-05T12:31:04,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_008.npy
+2025-10-05T12:31:08,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_009.npy
+2025-10-05T12:31:11,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_010.npy
+2025-10-05T12:31:14,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_011.npy
+2025-10-05T12:31:19,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_012.npy
+2025-10-05T12:31:22,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_013.npy
+2025-10-05T12:31:27,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_014.npy
+2025-10-05T12:31:31,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_015.npy
+2025-10-05T12:31:36,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_016.npy
+2025-10-05T12:31:40,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_017.npy
+2025-10-05T12:31:43,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_018.npy
+2025-10-05T12:31:46,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_019.npy
+2025-10-05T12:31:49,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_020.npy
+2025-10-05T12:31:53,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_021.npy
+2025-10-05T12:31:56,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_022.npy
+2025-10-05T12:32:00,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_023.npy
+2025-10-05T12:32:03,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_024.npy
+2025-10-05T12:32:07,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_025.npy
+2025-10-05T12:32:14,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_026.npy
+2025-10-05T12:32:17,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_027.npy
+2025-10-05T12:32:21,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_028.npy
+2025-10-05T12:32:25,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_029.npy
+2025-10-05T12:32:28,Letra_X,LETRA_X,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_X\LETRA_X_030.npy
+2025-10-05T12:32:55,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_001.npy
+2025-10-05T12:32:59,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_002.npy
+2025-10-05T12:33:02,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_003.npy
+2025-10-05T12:33:06,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_004.npy
+2025-10-05T12:33:09,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_005.npy
+2025-10-05T12:33:13,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_006.npy
+2025-10-05T12:33:16,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_007.npy
+2025-10-05T12:33:20,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_008.npy
+2025-10-05T12:33:24,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_009.npy
+2025-10-05T12:33:27,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_010.npy
+2025-10-05T12:33:31,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_011.npy
+2025-10-05T12:33:35,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_012.npy
+2025-10-05T12:33:39,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_013.npy
+2025-10-05T12:33:42,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_014.npy
+2025-10-05T12:33:46,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_015.npy
+2025-10-05T12:33:49,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_016.npy
+2025-10-05T12:33:53,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_017.npy
+2025-10-05T12:33:57,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_018.npy
+2025-10-05T12:34:00,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_019.npy
+2025-10-05T12:34:04,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_020.npy
+2025-10-05T12:34:08,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_021.npy
+2025-10-05T12:34:11,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_022.npy
+2025-10-05T12:34:15,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_023.npy
+2025-10-05T12:34:22,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_024.npy
+2025-10-05T12:34:26,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_025.npy
+2025-10-05T12:34:29,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_026.npy
+2025-10-05T12:34:34,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_027.npy
+2025-10-05T12:34:37,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_028.npy
+2025-10-05T12:34:41,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_029.npy
+2025-10-05T12:34:47,Letra_Y,LETRA_Y,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Y\LETRA_Y_030.npy
+2025-10-05T12:35:25,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_001.npy
+2025-10-05T12:35:37,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_002.npy
+2025-10-05T12:35:48,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_003.npy
+2025-10-05T12:35:55,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_004.npy
+2025-10-05T12:36:03,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_005.npy
+2025-10-05T12:36:16,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_006.npy
+2025-10-05T12:36:27,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_007.npy
+2025-10-05T12:36:35,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_008.npy
+2025-10-05T12:37:01,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_009.npy
+2025-10-05T12:37:09,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_010.npy
+2025-10-05T12:37:23,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_011.npy
+2025-10-05T12:37:30,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_012.npy
+2025-10-05T12:37:37,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_013.npy
+2025-10-05T12:37:45,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_014.npy
+2025-10-05T12:37:53,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_015.npy
+2025-10-05T12:38:06,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_016.npy
+2025-10-05T12:38:14,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_017.npy
+2025-10-05T12:38:22,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_018.npy
+2025-10-05T12:38:29,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_019.npy
+2025-10-05T12:38:37,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_020.npy
+2025-10-05T12:38:45,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_021.npy
+2025-10-05T12:38:55,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_022.npy
+2025-10-05T12:39:03,Letra_Z,LETRA_Z,d:\Tesis\Proyecto_LSP_keras\src\..\coordenadas\LETRA_Z\LETRA_Z_023.npy

@@ -22,10 +22,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--data-dir", type=str, default=None,
                     help="Carpeta del dataset (por defecto la que usa preprocess.py)")
 parser.add_argument("--batch-size", type=int, default=32)
-parser.add_argument("--epochs", type=int, default=60)
+parser.add_argument("--epochs", type=int, default=100)
 parser.add_argument("--lr", type=float, default=1e-3)
-parser.add_argument("--model-name", type=str, default="lsp_sequence_modelv3.keras")
-parser.add_argument("--checkpoint", type=str, default="best_lsp_modelv3.keras")
+parser.add_argument("--model-name", type=str, default="lsp_sequence_model_frasescomunes.keras")
+parser.add_argument("--checkpoint", type=str, default="best_lsp_model_frasescomunes.keras")
 parser.add_argument("--use-class-weights", type=str, default="auto",
                     choices=["auto", "yes", "no"],
                     help="auto: usa class_weights.json si existe; yes: siempre computa; no: desactiva")

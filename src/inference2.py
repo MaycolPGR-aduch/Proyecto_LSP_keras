@@ -29,8 +29,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--model", type=str, default=os.path.join(ROOT, "lsp_sequence_modelv3.keras"),
-                    help="Ruta del modelo .keras (por defecto: ../lsp_sequence_modelv3.keras)")
+parser.add_argument("--model", type=str, default=os.path.join(ROOT, "lsp_sequence_model_frasescomunes.keras"),
+                    help="Ruta del modelo .keras (por defecto: ../lsp_sequence_model_frasescomunes.keras)")
 parser.add_argument("--camera", type=int, default=0, help="Índice de cámara (0 por defecto)")
 parser.add_argument("--width",  type=int, default=1280, help="Ancho deseado de la cámara (fallback a 640)")
 parser.add_argument("--height", type=int, default=720,  help="Alto deseado de la cámara (fallback a 480)")

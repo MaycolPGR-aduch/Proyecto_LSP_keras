@@ -59,6 +59,8 @@ Thumbs.db
 
 # Data and models
 /data/
+coordenadas/
+coordenadas_pose/
 *.npz
 
 
