@@ -105,12 +105,43 @@ cap = cv2.VideoCapture(args.camera); cap.set(cv2.CAP_PROP_FRAME_WIDTH,args.width
 buffer = deque(maxlen=SEQ_LENGTH); hist = deque(maxlen=8)
 frames=0; t0=time.time(); fps=0.0
 
+# --- added: utility to make frame square (reduce MediaPipe NORM_RECT warning) ---
+def make_square_frame(frame):
+    h, w = frame.shape[:2]
+    if h == w:
+        return frame
+    s = max(h, w)
+    pad_top = (s - h) // 2
+    pad_bottom = s - h - pad_top
+    pad_left = (s - w) // 2
+    pad_right = s - w - pad_left
+    return cv2.copyMakeBorder(frame, pad_top, pad_bottom, pad_left, pad_right,
+                              borderType=cv2.BORDER_CONSTANT, value=[0,0,0])
+
+# --- added: verify camera opened ---
+if not cap.isOpened():
+    from tkinter import messagebox
+    messagebox.showerror("Cámara", f"No se pudo abrir la cámara {args.camera}. Verifica conexión y permisos.")
+    try: cap.release()
+    except: pass
+    raise SystemExit("Camera not available")
+
 def loop():
-    global fps
-    ok, frame = cap.read()
-    if ok:
+    global frames, t0, fps
+    try:
+        ok, frame = cap.read()
+        if not ok:
+            # mostrar error y detener loop si la cámara deja de responder
+            try: messagebox.showerror("Cámara", "No se recibió frame de la cámara. Cerrando.")
+            except: pass
+            on_close()
+            return
+
+        # pad a cuadrado para evitar advertencia de MediaPipe cuando ROI no es cuadrado
+        frame = make_square_frame(frame)
         frame = cv2.flip(frame,1)
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
         res_p = pose.process(rgb)
         center, scale = get_body_frame(res_p)
         res_h = hands.process(rgb)
@@ -129,12 +160,23 @@ def loop():
         if len(buffer)==SEQ_LENGTH:
             seq = np.array(buffer, np.float32)
             seq = (seq - MEAN[None,:])/STD[None,:]
-            x = seq[None,...]
-            # respeta nombre del input para evitar warning
+            x = seq[None,...].astype(np.float32)  # asegurar dtype correcto
+
+            # Invocar el modelo de forma consistente para evitar warnings/errores.
+            # Primero intentar predict (API pública); si falla, llamar usando input name.
             try:
-                probs = model({model.input_names[0]: x}, training=False).numpy()[0]
+                preds = model.predict(x, verbose=0)
+                probs = preds[0]
             except Exception:
-                probs = model(x, training=False).numpy()[0]
+                try:
+                    probs = model({model.input_names[0]: x}, training=False).numpy()[0]
+                except Exception as e:
+                    # mostrar error y parar inferencia si el modelo falla
+                    try: messagebox.showerror("Modelo", f"Error al ejecutar el modelo: {e}")
+                    except: pass
+                    on_close()
+                    return
+
             hist.append(probs)
             k = max(1, int(smooth_var.get()))
             sm = np.mean(list(hist)[-k:], axis=0)
@@ -142,8 +184,10 @@ def loop():
             for j,i in enumerate(top):
                 cv2.putText(frame, f"{j+1}. {LABELS[int(i)]}  {sm[int(i)]*100:.1f}%", (10,30+24*j), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,0,255),2, cv2.LINE_AA)
 
-        frames+=1; now=time.time()
-        if now-t0>=1.0: fps=frames/(now-t0); frames=0; t0=now
+        frames += 1; now = time.time()
+        if now - t0 >= 1.0:
+            fps = frames / (now - t0)
+            frames = 0; t0 = now
         cv2.putText(frame, f"FPS: {fps:.1f}", (10,frame.shape[0]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (30,200,30),2)
 
         img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
@@ -151,12 +195,25 @@ def loop():
         video_label.imgtk = imgtk
         video_label.config(image=imgtk)
 
-    root.after(1, loop)
+        root.after(1, loop)
+
+    except tk.TclError:
+        # la ventana pudo haber sido cerrada por el sistema; asegurar limpieza
+        on_close()
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        try: messagebox.showerror("Error inesperado", f"{e}\nRevisa la consola para más detalles.")
+        except: pass
+        print("ERROR en loop():", e)
+        print(tb)
+        on_close()
 
 def on_close():
     try: cap.release()
     except: pass
-    root.destroy()
+    try: root.destroy()
+    except: pass
 
 root.protocol("WM_DELETE_WINDOW", on_close)
 root.after(1, loop)

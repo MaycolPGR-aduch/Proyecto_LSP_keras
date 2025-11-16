@@ -1,0 +1,490 @@
+# -*- coding: utf-8 -*-
+"""
+inference_pose_estable.py
+Inferencia en tiempo real para señas con:
+- MediaPipe Pose + Hands
+- Coordenadas de manos relativas al cuerpo (FEAT_DIM = 126)
+- Ventana temporal fija (SEQ_LENGTH)
+- Suavizado temporal + detección de quietud (stillness)
+- Umbral configurable desde UI + estabilidad K frames + debounce
+"""
+
+import os
+import json
+import time
+import argparse
+from collections import deque
+
+import numpy as np
+import cv2
+import mediapipe as mp
+import tensorflow as tf
+
+# UI
+import tkinter as tk
+from tkinter import ttk
+from PIL import Image, ImageTk
+
+# ---------- Parámetros generales ----------
+FEAT_DIM = 126         # 2 manos * 21 landmarks * (x,y,z)
+SEQ_LENGTH = 60        # longitud de ventana temporal por defecto
+
+# ---------- MediaPipe ----------
+mp_pose = mp.solutions.pose
+mp_hands = mp.solutions.hands
+mp_drawing = mp.solutions.drawing_utils
+mp_styles = mp.solutions.drawing_styles
+
+# ---------- Paths base (como antes) ----------
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
+
+# ---------- Args ----------
+def build_argparser():
+    p = argparse.ArgumentParser()
+    # modelo por defecto: Proyecto_LSP_keras/models_pose/lsp_pose_v1.keras
+    p.add_argument(
+        "--model",
+        type=str,
+        default=os.path.join(ROOT, "models_pose", "lsp_pose_v1.keras"),
+        help="Ruta al modelo .keras relativo a la raíz del proyecto",
+    )
+    p.add_argument(
+        "--cam",
+        type=int,
+        default=0,
+        help="ID de cámara",
+    )
+    p.add_argument("--width", type=int, default=1280)
+    p.add_argument("--height", type=int, default=720)
+    p.add_argument(
+        "--stride",
+        type=int,
+        default=1,
+        help="Procesar 1 de cada N frames (no crítico, para FPS)",
+    )
+    return p
+
+args = build_argparser().parse_args()
+
+# ---------- Carga de modelo y artefactos ----------
+MODEL_PATH = os.path.abspath(args.model)
+MODEL_DIR = os.path.dirname(MODEL_PATH)
+
+print(f"Cargando modelo desde {MODEL_PATH} ...")
+model = tf.keras.models.load_model(MODEL_PATH, compile=False)
+
+# Ajusta SEQ_LENGTH y FEAT_DIM según el modelo
+try:
+    _, seq_len, feat_dim = model.input_shape
+except ValueError:
+    # por si el modelo tiene otra forma, muestra mensaje claro
+    raise ValueError(f"input_shape inesperado: {model.input_shape}")
+
+print("Modelo:", MODEL_PATH, "T,F=", seq_len, feat_dim)
+
+# actualizar SEQ_LENGTH y FEAT_DIM globales para que el resto del script coincida
+SEQ_LENGTH = int(seq_len)
+if FEAT_DIM != feat_dim:
+    print(
+        f"[ADVERTENCIA] FEAT_DIM global={FEAT_DIM}, "
+        f"pero el modelo espera {feat_dim}. Actualizando FEAT_DIM."
+    )
+    FEAT_DIM = int(feat_dim)
+
+# scaler_stats.npz en la misma carpeta que el modelo
+scaler_path = os.path.join(MODEL_DIR, "scaler_stats.npz")
+if not os.path.exists(scaler_path):
+    raise FileNotFoundError(f"No se encontró scaler_stats.npz en {scaler_path}")
+
+stats = np.load(scaler_path)
+MEAN = stats["mean"].astype(np.float32)
+STD = stats["std"].astype(np.float32)
+STD[STD < 1e-8] = 1.0  # evitar divisiones por cero
+
+# labels.json en la misma carpeta que el modelo
+labs_path = os.path.join(MODEL_DIR, "labels.json")
+if os.path.exists(labs_path):
+    with open(labs_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        # soporta tanto {"labels":[...]} como ["class1","class2",...]
+        if isinstance(data, dict) and "labels" in data:
+            LABELS = data["labels"]
+        else:
+            LABELS = data
+else:
+    # fallback por si no existe labels.json
+    LABELS = [f"C{i}" for i in range(model.output_shape[-1])]
+
+NUM_CLASSES = len(LABELS)
+print(f"{NUM_CLASSES} clases: {LABELS}")
+print(f"SEQ_LENGTH={SEQ_LENGTH}, FEAT_DIM={FEAT_DIM}")
+
+# ---------- Utilidades geométricas ----------
+EMA_ALPHA_CENTER = 0.25
+_body_center = None
+_body_scale = None
+
+def get_body_frame(res_p):
+    """
+    Devuelve centro del torso (x,y) en [0,1] y escala ~anchura de hombros.
+    Usa suavizado exponencial para estabilidad visual.
+    """
+    global _body_center, _body_scale
+    if not res_p or not res_p.pose_landmarks:
+        return _body_center, _body_scale
+
+    lm = res_p.pose_landmarks.landmark
+    # índices de pose
+    LSH = mp_pose.PoseLandmark.LEFT_SHOULDER.value
+    RSH = mp_pose.PoseLandmark.RIGHT_SHOULDER.value
+    LHP = mp_pose.PoseLandmark.LEFT_HIP.value
+    RHP = mp_pose.PoseLandmark.RIGHT_HIP.value
+
+    def xy(i):
+        p = lm[i]
+        return float(np.clip(p.x, 0.0, 1.0)), float(np.clip(p.y, 0.0, 1.0))
+
+    lsh = xy(LSH)
+    rsh = xy(RSH)
+    lhp = xy(LHP)
+    rhp = xy(RHP)
+
+    cx = (lsh[0] + rsh[0] + lhp[0] + rhp[0]) / 4.0
+    cy = (lsh[1] + rsh[1] + lhp[1] + rhp[1]) / 4.0
+    center = np.array([cx, cy], dtype=np.float32)
+
+    shoulder_width = np.linalg.norm(np.array(lsh) - np.array(rsh)) + 1e-6
+    scale = float(shoulder_width)
+
+    if _body_center is None:
+        _body_center = center
+        _body_scale = scale
+    else:
+        _body_center = (1.0 - EMA_ALPHA_CENTER) * _body_center + EMA_ALPHA_CENTER * center
+        _body_scale = (1.0 - EMA_ALPHA_CENTER) * _body_scale + EMA_ALPHA_CENTER * scale
+
+    return _body_center, _body_scale
+
+
+def hands_to_body_relative(res_h, center, scale):
+    """
+    Convierte los 21 landmarks de cada mano a coords relativas al cuerpo:
+    (x - cx)/scale, (y - cy)/scale, z/scale.
+    Devuelve vector de tamaño FEAT_DIM=126.
+    Orden: mano izquierda (21*3) + mano derecha (21*3).
+    Si alguna mano no está, se rellena con ceros.
+    """
+    feat = np.zeros((2, 21, 3), dtype=np.float32)
+
+    if not res_h or not res_h.multi_hand_landmarks or center is None or scale is None:
+        return feat.reshape(-1)
+
+    # MediaPipe Hands puede detectar varias manos con handedness
+    handed = res_h.multi_handedness
+    lms = res_h.multi_hand_landmarks
+
+    for hinfo, hland in zip(handed, lms):
+        label = hinfo.classification[0].label.lower()  # "left" / "right"
+        mano_idx = 0 if label == "left" else 1
+        for i, lm in enumerate(hland.landmark):
+            x = float(lm.x) - center[0]
+            y = float(lm.y) - center[1]
+            z = float(lm.z)
+            feat[mano_idx, i, 0] = x / scale
+            feat[mano_idx, i, 1] = y / scale
+            feat[mano_idx, i, 2] = z / scale
+
+    return feat.reshape(-1)
+
+
+def is_valid(vec126, min_mag=1e-4):
+    """
+    Considera válida una muestra si al menos una mano tiene señal apreciable.
+    """
+    if vec126 is None:
+        return False
+    v = np.asarray(vec126, dtype=np.float32)
+    if np.allclose(v, 0.0):
+        return False
+    # Magnitud promedio
+    mag = float(np.mean(np.abs(v)))
+    return mag > min_mag
+
+# ---------- Detección estable (estáticas / dinámicas) ----------
+EPS_STILL = 0.006       # umbral de "quietud"
+K_STATIC = 8            # frames consecutivos para estáticas
+K_DYNAMIC = 6           # para dinámicas
+DEBOUNCE_STATIC = 45    # evitar repetir misma estática N frames
+DEBOUNCE_DYNAMIC = 30
+
+ema_probs = None
+consec_ok = 0
+last_emit = {"label": None, "frame_idx": -9999}
+
+prev_vec = None       # último vector de 126
+still_hist = deque(maxlen=SEQ_LENGTH)
+step = 0              # contador global de frames procesados
+
+def compute_stillness(prev_vec126, curr_vec126):
+    """
+    Mide velocidad media de 6 puntos clave:
+    wrist(0), thumb_tip(4), index_tip(8) en cada mano (2 manos * 3 puntos).
+    """
+    if prev_vec126 is None or curr_vec126 is None:
+        return 0.0
+    a = np.asarray(prev_vec126, dtype=np.float32).reshape(2, 21, 3)
+    b = np.asarray(curr_vec126, dtype=np.float32).reshape(2, 21, 3)
+
+    idxs = [0, 4, 8]  # wrist, thumb_tip, index_tip
+    pts_a = np.concatenate([a[:, i, :] for i in idxs], axis=0)  # (6,3)
+    pts_b = np.concatenate([b[:, i, :] for i in idxs], axis=0)  # (6,3)
+
+    dv = pts_b - pts_a
+    speed = np.linalg.norm(dv, axis=1).mean()
+    return float(speed)
+
+
+def ema_update(probs, ema, alpha):
+    if ema is None:
+        return probs.copy()
+    return alpha * ema + (1.0 - alpha) * probs
+
+
+def decide_label(smoothed_probs, class_names, stillness, frame_idx, thr_ui):
+    """
+    Aplica:
+    - Umbral diferenciado para estáticas y dinámicas
+    - Estabilidad de K frames consecutivos
+    - Debounce para no repetir la misma etiqueta
+    Devuelve etiqueta estabilizada o None.
+    """
+    global ema_probs, consec_ok, last_emit
+
+    thr_dyn = float(thr_ui)
+    thr_stat = max(0.40, min(thr_dyn - 0.10, 0.85))   # un poco más permisivo para estáticas
+
+    is_static = (stillness < EPS_STILL)
+    Kneed = K_STATIC if is_static else K_DYNAMIC
+    debounce = DEBOUNCE_STATIC if is_static else DEBOUNCE_DYNAMIC
+
+    # suavizado exponencial adicional
+    alpha = 0.6 if is_static else 0.8
+    ema = ema_update(smoothed_probs, ema_probs, alpha)
+    ema_probs = ema
+
+    top = int(np.argmax(ema))
+    label = class_names[top]
+    p = float(ema[top])
+
+    # nunca emitimos explícitamente "no_sena" si existe
+    if "no_sena" in class_names and label == "no_sena":
+        consec_ok = 0
+        return None
+
+    thr = thr_stat if is_static else thr_dyn
+
+    if p >= thr:
+        consec_ok += 1
+    else:
+        consec_ok = 0
+
+    if consec_ok >= Kneed:
+        if label == last_emit["label"] and (frame_idx - last_emit["frame_idx"]) < debounce:
+            return None
+        last_emit = {"label": label, "frame_idx": frame_idx}
+        consec_ok = 0
+        return label
+
+    return None
+
+# ---------- Captura de video ----------
+cap = cv2.VideoCapture(args.cam)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, args.width)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, args.height)
+
+if not cap.isOpened():
+    raise RuntimeError(f"No se pudo abrir la cámara {args.cam}")
+
+# ---------- Buffers temporales ----------
+buffer = deque(maxlen=SEQ_LENGTH)
+hist_probs = deque(maxlen=16)
+
+# FPS
+frames = 0
+t0 = time.time()
+fps = 0.0
+
+# ---------- UI Tkinter ----------
+root = tk.Tk()
+root.title("Inferencia señas - Pose+Hands")
+
+video_label = tk.Label(root)
+video_label.grid(row=0, column=0, columnspan=5)
+
+running = {"flag": False}
+
+def toggle_run():
+    running["flag"] = not running["flag"]
+    btn_run.config(text="Detener" if running["flag"] else "Iniciar")
+
+btn_run = ttk.Button(root, text="Iniciar", command=toggle_run)
+btn_run.grid(row=1, column=0, padx=5, pady=5, sticky="ew")
+
+# Slider de suavizado
+ttk.Label(root, text="Suavizado (frames)").grid(row=1, column=1)
+smooth_var = tk.IntVar(value=4)
+smooth_slider = ttk.Scale(root, from_=1, to=10, orient="horizontal",
+                          variable=smooth_var)
+smooth_slider.grid(row=1, column=2, padx=5, pady=5, sticky="ew")
+
+# Slider de umbral
+ttk.Label(root, text="Umbral (%)").grid(row=1, column=3)
+thr_var = tk.DoubleVar(value=75.0)
+thr_slider = ttk.Scale(root, from_=40.0, to=95.0, orient="horizontal",
+                       variable=thr_var)
+thr_slider.grid(row=1, column=4, padx=5, pady=5, sticky="ew")
+
+# Texto de salida (última etiqueta aceptada)
+text_var = tk.StringVar(value="")
+label_text = ttk.Label(root, textvariable=text_var, font=("Helvetica", 14))
+label_text.grid(row=2, column=0, columnspan=5, pady=5, sticky="w")
+
+# FPS label
+fps_var = tk.StringVar(value="FPS: 0.0")
+label_fps = ttk.Label(root, textvariable=fps_var)
+label_fps.grid(row=3, column=0, columnspan=2, sticky="w", padx=5)
+
+# ---------- Modelos MediaPipe ----------
+pose = mp_pose.Pose(
+    static_image_mode=False,
+    model_complexity=0,          # puedes subir a 1 si tu PC aguanta
+    enable_segmentation=False,
+    min_detection_confidence=0.5,
+    min_tracking_confidence=0.5,
+)
+hands = mp_hands.Hands(
+    static_image_mode=False,
+    max_num_hands=2,
+    min_detection_confidence=0.5,
+    min_tracking_confidence=0.6,  # un poco más alto para reducir flicker
+)
+
+# ---------- Main loop ----------
+def loop():
+    global frames, t0, fps, prev_vec, step
+
+    ret, frame = cap.read()
+    if not ret:
+        root.after(10, loop)
+        return
+
+    frame = cv2.flip(frame, 1)
+    h, w, _ = frame.shape
+
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+    # Pose + cuerpo
+    res_p = pose.process(rgb)
+    center, scale = get_body_frame(res_p)
+
+    # Manos
+    res_h = hands.process(rgb)
+
+    # Dibujo opcional de pose y manos (debug)
+    if res_p and res_p.pose_landmarks:
+        mp_drawing.draw_landmarks(
+            frame,
+            res_p.pose_landmarks,
+            mp_pose.POSE_CONNECTIONS,
+            landmark_drawing_spec=mp_styles.get_default_pose_landmarks_style(),
+        )
+    if res_h and res_h.multi_hand_landmarks:
+        for hand_lms in res_h.multi_hand_landmarks:
+            mp_drawing.draw_landmarks(
+                frame,
+                hand_lms,
+                mp_hands.HAND_CONNECTIONS,
+                landmark_drawing_spec=mp_styles.get_default_hand_landmarks_style(),
+            )
+
+    if running["flag"]:
+        vec = hands_to_body_relative(res_h, center, scale)
+
+        if is_valid(vec):
+            still = compute_stillness(prev_vec, vec)
+            still_hist.append(still)
+            prev_vec = vec.copy()
+
+            buffer.append(vec)
+            step += 1
+        else:
+            prev_vec = None
+            still_hist.append(0.0)
+
+        if len(buffer) == SEQ_LENGTH:
+            seq = np.asarray(buffer, dtype=np.float32)
+            seq = (seq - MEAN[None, :]) / STD[None, :]
+            x = seq[None, ...]   # (1, T, F)
+
+            probs = model(x, training=False).numpy()[0]  # (C,)
+            hist_probs.append(probs)
+
+            k = max(1, int(smooth_var.get()))
+            sm = np.mean(list(hist_probs)[-k:], axis=0)
+
+            still_window = float(np.mean(list(still_hist)[-k:])) if len(still_hist) >= 2 else 0.0
+            thr_ui = float(thr_var.get()) / 100.0
+
+            label_dec = decide_label(sm, LABELS, still_window, step, thr_ui)
+
+            # top-3 (debug visual)
+            top = sm.argsort()[-min(3, len(LABELS)):][::-1]
+            for j, i in enumerate(top):
+                txt = f"{j+1}. {LABELS[int(i)]}: {sm[int(i)]:.2f}"
+                cv2.putText(
+                    frame, txt,
+                    (10, 30 + 24 * j),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2, cv2.LINE_AA
+                )
+
+            # etiqueta estabilizada
+            if label_dec is not None:
+                text_var.set(f"Seña: {label_dec}")
+                cv2.putText(
+                    frame, label_dec,
+                    (10, h - 30),
+                    cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0, 255, 0), 3, cv2.LINE_AA
+                )
+        else:
+            text_var.set("Esperando ventana completa...")
+    else:
+        text_var.set("En pausa. Pulsa Iniciar para comenzar.")
+
+    # FPS
+    frames += 1
+    if frames >= 10:
+        t1 = time.time()
+        fps = frames / (t1 - t0 + 1e-6)
+        t0 = t1
+        frames = 0
+    fps_var.set(f"FPS: {fps:.1f}")
+
+    # Mostrar frame en UI
+    img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+    imgtk = ImageTk.PhotoImage(image=img)
+    video_label.imgtk = imgtk
+    video_label.config(image=imgtk)
+
+    root.after(1, loop)
+
+def on_close():
+    try:
+        cap.release()
+    except Exception:
+        pass
+    root.destroy()
+
+root.protocol("WM_DELETE_WINDOW", on_close)
+root.after(1, loop)
+root.mainloop()
